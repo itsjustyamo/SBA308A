@@ -2,14 +2,22 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f5d76e; /* yellow */
-    background-image: url('owl.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.content{
+    position:absolute;
+    bottom: 8px;
+    top: 16px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
 }
 
 .container {
